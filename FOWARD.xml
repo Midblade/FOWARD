@@ -14,12 +14,25 @@
                 <field name="NUM">5000</field>
               </block>
             </value>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <next>
+      <block type="movement_forward" id="125">
+        <next>
+          <block type="robot_delay" id="115" inline="true">
+            <value name="DELAY">
+              <block type="math_number" id="132">
+                <field name="NUM">2000</field>
+              </block>
+            </value>
             <next>
               <block type="movement_stop" id="60"></block>
             </next>
           </block>
         </next>
       </block>
-    </statement>
+    </next>
   </block>
 </xml>
